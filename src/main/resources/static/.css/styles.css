@@ -1,0 +1,136 @@
+/**/
+body{
+    background-color: darkblue;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 80px 20px 0;
+    
+    
+}
+a h1{
+    color: white;
+}
+p{
+    color:white;
+}
+
+h2{
+    background-color: white;
+    color: palevioletred;
+}
+
+a{
+  text-align: center;
+   color: purple;
+    text-decoration: none;
+    
+}
+aside{
+    position: fixed;
+    background-color: white;
+    top: 80px;
+   left: 0;
+    buttom: 20px;
+    width: 20%;
+    
+}
+
+section{
+    position: fixed;
+    background-color: yellowgreen;
+    top: 80px;
+   left: 20%;
+    buttom: 80px;
+    width: 80%;
+    
+}
+
+aside p{
+    color:  blueviolet;
+}
+
+section{
+    overflow-y: scroll;
+    position: fixed;
+    background-color: gray;
+        top :80px;
+    left: 20%;
+    bottom: 20px;
+    width: 80%;
+    
+}
+section h3{
+    color: white;
+}
+figcaption i{
+    text-align: left;
+}
+
+img{
+    background-color: palevioletred;
+}
+
+table{
+    border: 1px black solid;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+tr:nth-child(even){
+    background-color:  powderblue;
+}
+th{
+     border: solid black 1px;
+     background-color: coral;
+     color: white;
+}
+td{
+    border: solid black 1px;
+}
+
+nav {
+    background-color: white;
+    border: solid 1px black;
+    border-right:  1px;
+    
+}
+
+nav a{
+    color: goldenrod;
+     border: solid 1px black;
+    border-right:  1px;
+    
+    
+}
+
+a last-child{
+border-right: none;
+    border-left: 1px solid yellow ;
+
+    
+}
+
+nav:hover{
+    background-color: coral;
+}
+
+header{
+    position: fixed;
+    top : 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+}
+
+footer{
+    
+    position: fixed;
+    background-color: gray;
+    color: white;
+        
+    left: 0;
+    bottom:0;
+    width: 100%;
+    
+}
